@@ -26,14 +26,17 @@ The number of layers in MLP is not fixed and thus can have any number of hidden 
 ## Algorithm:
 
 Step 1: 
+
 Initialize the input patterns for XOR Gate.
 
 
 Step 2: 
+
 Initialize the desired output of the XOR Gate.
 
 
 Step 3: 
+
 Initialize the weights for the 2 layer MLP with 2 Hidden neuron and 1 output neuron.
 
 
@@ -53,6 +56,7 @@ Repeat the  iteration  until the losses become constant and minimum.
         (v)   Append the losses in a list.
 
 Step 5:  
+
 Test for the XOR patterns.
 
 ## PROGRAM:
@@ -127,7 +131,10 @@ predict(w1,w2,test)
 ```
 
 ## OUTPUT:
+### Plt.plot(losses) :
 ![image](https://user-images.githubusercontent.com/94164665/234487050-7e92a248-9d96-456b-87a5-2fec16066e19.png)
+### Input and corresponding output of XOR Gate :
 ![image](https://user-images.githubusercontent.com/94164665/234487113-2887e214-23c6-45ac-9106-ca162259a6d0.png)
 
 ## RESULT:
+Thus, a program involving python to implement a perceptron for Implementation of MLP for non linearly separable problem is developed and executted successfully.
